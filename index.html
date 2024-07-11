@@ -4,8 +4,422 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 <body>
-    <div></div>
+    <!-- ---------------------header--------------------- -->
+    <header>
+        <h1 class="logo"><a href="#"><img src="img/logo.png" alt="로고"></a></h1>
+        <nav>
+            <ul class="mainmenu">
+                <li>
+                    <a href="#">브랜드소개</a>
+                    <ul class="submenu">
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">주요시설</a></li>
+                        <li><a href="#">찾아오시는길</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">메뉴안내</a>
+                    <ul class="submenu">
+                        <li><a href="#">메뉴소개</a></li>
+                        <li><a href="#">제품영양정보</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">창업안내</a>
+                    <ul class="submenu">
+                        <li><a href="#">브랜드경쟁력</a></li>
+                        <li><a href="#">가맹개설절차</a></li>
+                        <li><a href="#">비용안내</a></li>
+                        <li><a href="#">창업문의</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">매장안내</a>
+                    <ul class="submenu">
+                        <li><a href="#">매장찾기</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">커뮤니티</a>
+                    <ul class="submenu">
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">문의하기</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <nav class="nav_on">
+            <h1>GCOVA</h1>
+            <ul>
+                <li>
+                    <a href="#">브랜드소개</a>
+                    <ul class="onsub">
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">주요시설</a></li>
+                        <li><a href="#">찾아오시는길</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">메뉴안내</a>
+                    <ul class="onsub">
+                        <li><a href="#">메뉴소개</a></li>
+                        <li><a href="#">제품영양정보</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">창업안내</a>
+                    <ul class="onsub">
+                        <li><a href="#">브랜드경쟁력</a></li>
+                        <li><a href="#">가맹개설절차</a></li>
+                        <li><a href="#">비용안내</a></li>
+                        <li><a href="#">창업문의</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">매장안내</a>
+                    <ul class="onsub">
+                        <li><a href="#">매장찾기</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">커뮤니티</a>
+                    <ul class="onsub">
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">문의하기</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <span class="sub_back"></span>
+        <div class="header_right">
+            <div class="lang">
+                <select>
+                    <option value="ko">KR</option>
+                    <option value="en">EN</option>
+                </select>
+            </div>
+            <div class="ham">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+   <!-- --------------------- main --------------------- -->
+   <main>
+        <!-- section1 -->
+        <section class="sec1">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slide_left"><img src="./img/chicken.png" alt="chicken"></div>
+                        <div class="slide_right">
+                            <div>
+                                <p>GCOVA</p>
+                                <h3>
+                                    Main Menu, <br>
+                                    Grilled Salt Chicken
+                                </h3>
+                                <span>지코바 소금 구이 치킨</span>
+                            </div>
+                        </div>
+                        <div class="slide_center"><img src="img/img1-1.png" alt="salty grilled chicken"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide_left"><img src="./img/fire.png" alt="chicken"></div>
+                        <div class="slide_right">
+                            <div>
+                                <p>GCOVA</p>
+                                <h3>
+                                    Seasoned Fried Chicken
+                                </h3>
+                                <span>지코바 양념 구이 치킨</span>
+                            </div>
+                        </div>
+                        <div class="slide_center"><img src="img/img2-1.png" alt="spicy chicken"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide_left"><img src="./img/chickenrice.png" alt="chicken"></div>
+                        <div class="slide_right">
+                            <div>
+                                <p>GCOVA</p>
+                                <h3>
+                                    Half and half Boneless Chicken
+                                </h3>
+                                <span>지코바 반반 순살 치킨</span>
+                            </div>
+                        </div>
+                        <div class="slide_center"><img src="img/img3-1.png" alt="half chicken"></div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!-- section2 -->
+        <section class="sec2">
+            <h2 class="ortit">Gcova Menu</h2>
+            <div class="menu_wrap">
+                <div class="men">
+                    <a href="">
+                        <div class="menu col1"><img src="img/img1-1.png" alt="salt chicken"></div>
+                        <ul>
+                            <li class="mentit">지코바 소금구이</li>
+                            <li class="mentxt">
+                                닭 자체의 기름을 적절히 제거하여 느끼함이 없고 <br>
+                                쫄깃하고 담백한 맛으로 맥주와 잘 어울리는 치킨
+                            </li>
+                        </ul>
+                    </a>
+                </div>
+                <div  class="men">
+                    <a href="">
+                        <div class="menu col2"><img src="img/img3-1.png" alt="spicy chicken"></div>
+                        <ul>
+                            <li class="mentit">지코바 반반 순살 치킨</li>
+                            <li class="mentxt">
+                                뼈를 제거하여 먹기 쉽고 촉촉한 넓적다리살과 <br>
+                                부드럽고 깊은 맛의 소스가 함께하는 인기 메뉴
+                            </li>
+                        </ul>
+                    </a>
+                </div>
+                <div  class="men">
+                    <a href="">
+                        <div class="menu col3"><img src="img/img2-1.png" alt=""></div>
+                        <ul>
+                            <li class="mentit">지코바 양념구이</li>
+                            <li class="mentxt">
+                                어느 누구도 흉내 낼 수 없는 한국적인 <br>
+                                특별한 소스로 맛을 낸 지코바 대표 치킨
+                            </li>
+                        </ul>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- section3 -->
+        <section class="sec3 w100">
+            <div class="txtbox">
+                <div class="bar"></div>
+                <div>
+                    <h2>
+                        지코바와 함께하는 <br>
+                        모든 순간이 <br>
+                        행복 할 수 있도록
+                    </h2>
+                    <p>
+                        경쟁력있는 서비스를 제공하여 <br>
+                        점주님들의 성공적인 창업을 도와드립니다.
+                    </p>
+                </div>
+            </div>
+            <div class="backsquare"><img src="./img/bgbg.png" alt=""></div>
+            <div class="info_boxs">
+                <ul class="box1">
+                    <li class="tx1">자체 공장 보유</li>
+                    <li class="tx2">
+                        지코바 자체 물류센터에서 재료를 안정적으로 배달합니다.
+                    </li>
+                    <li class="tx3"><a href="#">주요시설 보러가기 <span></span></a></li>
+                    <li class="info_img"></li>
+                </ul>
+                <ul class="box2">
+                    <li class="tx1">잊을 수 없는 메뉴 구성</li>
+                    <li class="tx2">
+                        메뉴의 다양성보다 맛에 집중하여 중독성 있는 맛을 구현했습니다.
+                    </li>
+                    <li class="tx3"><a href="#">메뉴소개 보러가기 <span></span></a></li>
+                    <li class="info_img"></li>
+                </ul>
+                <ul class="box3">
+                    <li class="tx1">지코바의 영향력</li>
+                    <li class="tx2">
+                        고객에게 먼저 인정받는 맛으로 마케팅 없이도 지금의 브랜드 네이밍을 만들어 냈습니다.
+                    </li>
+                    <li class="tx3"><a href="#">고객리뷰 보러가기 <span></span></a></li>
+                    <li class="info_img"></li>
+                </ul>
+                <ul class="box4">
+                    <li class="tx1">쉽고 빠른 조리법</li>
+                    <li class="tx2">
+                        자동 양념 볶음기로 점주님들의 손목을 보호해줄 뿐만 아니라 쉽고 빠른 조리가 가능합니다.
+                    </li>
+                    <li class="tx3"><a href="#">조리영상 보러가기 <span></span></a></li>
+                    <li class="info_img"></li>
+                </ul>
+                <ul class="box5">
+                    <li class="tx1">3 WAY 수익구조</li>
+                    <li class="tx2">
+                        원하는 방식으로 수익구조를 만들어 나갈 수 있습니다.
+                    </li>
+                    <li class="tx3"><a href="#">브랜드경쟁력 보러가기 <span></span></a></li>
+                    <li class="info_img"></li>
+                </ul>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+        <div class="sec4">
+            <div>
+                <div class="txtbox">
+                    <div class="bar"></div>
+                    <div>
+                        <h2>
+                            정직한 맛으로 <br>
+                            고객이 사랑하는 <br>
+                            지코바 치킨
+                        </h2>
+                        <p>
+                            가장 한국적이면서도 소비자의 <br>
+                            식생활 트렌드와 입맛에 맞는 <br>
+                            치킨 개발을 위해 노력하고 있습니다.    
+                        </p>
+                    </div>
+                </div>
+                <ul class="sec4info">
+                    <li>
+                        <strong>든든한 치킨</strong>
+                        <p>
+                            밥과 함께 먹으면 더욱 맛있는 <br>
+                            한국인의 밥심을 저격한 치킨
+                        </p>
+                        <div>Click Me</div>
+                    </li>
+                    <li>
+                        <strong>고객이 인정한 치킨</strong>
+                        <p>
+                            수많은 고객들의 리뷰가 먼저 <br>
+                            증명하는 지코바 치킨
+                        </p>
+                        <div>Click Me</div>
+                    </li>
+                    <li>
+                        <strong>건강한 치킨</strong>
+                        <p>
+                            엄선한 재료들로 만든 건강한 <br>
+                            치킨으로 아이들도 걱정없이 <br>
+                            먹을 수 있는 치킨
+                        </p>
+                        <div>Click Me</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="backimg"><img src="img/back_logo.png" alt="logo"></div>
+            <span></span>
+        </div>
+        <div class="sec5">
+            <div class="txtbox">
+                <div class="bar"></div>
+                <div>
+                    <h2>
+                        가맹점 개설 절차
+                    </h2>
+                    <div><img src="img/number.png" alt="number"></div>
+                    <p>
+                        지금 이 시간에도 늘어나고 있는 <br>
+                        지코바의 가맹점 수입니다.
+                    </p>
+                </div>
+            </div>
+            <div class="sec5info">
+                <ul></ul>
+                <ul></ul>
+                <ul></ul>
+                <ul></ul>
+                <ul></ul>
+            </div>
+        </div>
+        <div class="sec6">
+            <div class="slide1">
+                <ul>
+                    <li>01</li>
+                    <li>
+                        지코바 <br>
+                        창업경쟁력
+                    </li>
+                    <li>
+                        조리시간을 획기적으로 줄일 수 있는 방법을 <br>
+                        채택하여 점주님들의 부담을 줄였습니다.
+                    </li>
+                    <li class="morebtn">자세히보기</li>
+                </ul>
+                <img src="img/brand_img_7.png" alt="cooking video">
+            </div>
+        </div>
+        <div class="sec7">
+            <span></span>
+            <h2 class="ortit">
+                성공적인 창업을 위한 첫걸음
+                <p>
+                    때론, 수십번의 고민보다는
+                    <strong>한 통의 전화</strong> 가효과적입니다.
+                </p>
+            </h2>
+            <div class="insertbox">
+                <div class="leftform">
+                    <form>
+                        <p>이름</p>
+                        <input type="text">
+                    </form>
+                    <form>
+                        <p>연락처</p>
+                        <input type="text">
+                        <input type="text">
+                        <input type="text">
+                    </form>
+                    <form>
+                        <p>개설 희망 지역</p>
+                        <input type="text">
+                        <input type="text">
+                    </form>
+                </div>
+                <div class="rightform">
+                    <form>
+                        <p>문의사항</p>
+                        <input type="text">
+                    </form>
+                    <form>
+                        <input type="radio">
+                        <label>개인정보 수집 및 이용 동의</label>
+                    </form>
+                    <input type="submit" value="문의하기 →">
+                </div>
+            </div>
+        </div>
+    <!-- footer -->
+    <footer class="w100">
+        <div class="fot_top">
+            <h1><img src="img/logo_fot.png" alt="logo"></h1>
+            <p>
+                경상남도 양산시 어곡공단 3길 32 (주)지코바 <br>
+                TEL) 053.363.9300 <span>평일 9:00 ~ 17:00</span>
+            </p>
+        </div>
+        <div class="fot_bottom">
+            <p>Copyright (C) 1994 gcova.co.kr All Rights Reserved.</p>
+        </div>
+    </footer>
+    <div class="fixbtn">
+        <div></div>
+    </div>
+
+
+
+    </main>
 </body>
 </html>
