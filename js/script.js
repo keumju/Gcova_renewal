@@ -19,7 +19,7 @@ nav.addEventListener('mouseleave',function(){
         for(j=0; j<5; j++){
             subs[j].style.height = '0';
         };
-        head.style.backgroundColor = 'rgba(299,299,299,0.7)'
+        head.style.backgroundColor = 'rgba(0, 0, 0, 0.3)'
         head.style.borderBottom = 'none';
         back.style.height = '0';
 })
@@ -30,7 +30,7 @@ navs.forEach(function(nav,i){
     })
     nav.addEventListener('mouseleave',function(){
         mains[i].style.borderBottom = 'none'
-        mains[i].style.color = '#261810'
+        mains[i].style.color = '#fff'
     })
 })
 
