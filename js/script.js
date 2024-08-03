@@ -19,18 +19,18 @@ nav.addEventListener('mouseleave',function(){
         for(j=0; j<5; j++){
             subs[j].style.height = '0';
         };
-        head.style.backgroundColor = 'rgba(299,299,299,0.7)'
+        // head.style.backgroundColor = 'rgba(299,299,299,0.7)'
         head.style.borderBottom = 'none';
         back.style.height = '0';
 })
 navs.forEach(function(nav,i){
     nav.addEventListener('mouseover',function(){
-        mains[i].style.borderBottom = '3px solid #e0462e'
-        mains[i].style.color = '#F05A21'
+        // mains[i].style.borderBottom = '3px solid #e0462e'
+        // mains[i].style.color = '#F05A21'
     })
     nav.addEventListener('mouseleave',function(){
-        mains[i].style.borderBottom = 'none'
-        mains[i].style.color = '#261810'
+        // mains[i].style.borderBottom = 'none'
+        // mains[i].style.color = '#261810'
     })
 })
 
@@ -46,27 +46,23 @@ ham.addEventListener('click',function(){
     if(ham.classList.contains('on')){
         hamCenter.style.display = 'none';
         hamTop.style.transform = 'rotate(45deg)';
-        hamTop.style.backgroundColor = '#fff';
         hamTop.style.marginTop = '13px';
         hamBottom.style.transform = 'rotate(-45deg)';
         hamBottom.style.marginTop = '-2px';
-        hamBottom.style.backgroundColor = '#fff';
         navon.style.display='flex';
     }else{
         hamCenter.style.display = 'block';
         hamTop.style.transform = 'rotate(0)';
         hamTop.style.marginTop = '5px';
-        hamTop.style.backgroundColor = '#000';
         hamBottom.style.transform = 'rotate(0)';
         hamBottom.style.marginTop = '8px';
-        hamBottom.style.backgroundColor = '#000';
         navon.style.display='none';
     }
 })
 
 /* -------------------- main -------------------- */
 // section_1_slide
-var swiper = new Swiper(".sec1 .mySwiper", {
+var swiper1 = new Swiper(".sec1 .mySwiper", {
     slidesPerView: 1,
     spaceBetween: 30,
     autoplay: {
@@ -77,5 +73,15 @@ var swiper = new Swiper(".sec1 .mySwiper", {
     navigation: {
         nextEl: ".sec1 .swiper-button-next",
         prevEl: ".sec1 .swiper-button-prev",
+    },
+});
+
+var swiper2 = new Swiper(".sec5 .mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    freeMode: true,
+    navigation: {
+        nextEl: ".sec5 .swiper-button-next",
+        prevEl: ".sec5 .swiper-button-prev",
     },
 });
