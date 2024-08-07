@@ -19,19 +19,8 @@ nav.addEventListener('mouseleave',function(){
         for(j=0; j<5; j++){
             subs[j].style.height = '0';
         };
-        // head.style.backgroundColor = 'rgba(299,299,299,0.7)'
         head.style.borderBottom = 'none';
         back.style.height = '0';
-})
-navs.forEach(function(nav,i){
-    nav.addEventListener('mouseover',function(){
-        // mains[i].style.borderBottom = '3px solid #e0462e'
-        // mains[i].style.color = '#F05A21'
-    })
-    nav.addEventListener('mouseleave',function(){
-        // mains[i].style.borderBottom = 'none'
-        // mains[i].style.color = '#261810'
-    })
 })
 
 // header_right_ham
@@ -77,8 +66,9 @@ var swiper1 = new Swiper(".sec1 .mySwiper", {
 });
 
 var swiper2 = new Swiper(".sec5 .mySwiper", {
-    slidesPerView: 3,
-    spaceBetween: 30,
+    slidesPerView: 2.5,
+    spaceBetween: 5,
+    loop: true,
     freeMode: true,
     navigation: {
         nextEl: ".sec5 .swiper-button-next",
