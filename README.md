@@ -2,8 +2,8 @@
     <img src="https://capsule-render.vercel.app/api?type=egg&color=f05a21&height=180&text=GCOVA&animation=&fontColor=ffffff&fontSize=70" />
     </div>
     <div style="text-align: left;"> 
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 투두리스트 </h2>  
-    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> https://keumju.github.io/To<li>Do<li>List/</li></li><br/>◼ 리액트를 사용한 투두리스트</li><br/>◼ 오늘의 할일 작성 등록 및 수정, 삭제 기능 </div> 
+    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 지코바 리뉴얼 사이트 </h2>  
+    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> https://keumju.github.io/Gcova_renewal/</li></li> <br/> ◼ 지코바 창업을 희망하는 고객을 타겟으로 사이트 제작 </div> 
     </div>
     <div style="text-align: left;">
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ Tech Stacks </h2> <br> 
