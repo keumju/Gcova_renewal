@@ -1,16 +1,26 @@
-<div align= "center">
-    <img src="https://capsule-render.vercel.app/api?type=egg&color=f05a21&height=180&text=GCOVA&animation=&fontColor=ffffff&fontSize=70" />
-    </div>
-    <div style="text-align: left;"> 
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 지코바 리뉴얼 사이트 </h2>  
-    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> https://keumju.github.io/Gcova_renewal/</li></li> <br/> ◼ 지코바 창업을 희망하는 고객을 타겟으로 사이트 제작 </div> 
-    </div>
-    <div style="text-align: left;">
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ Tech Stacks </h2> <br> 
-    <div style="margin: ; text-align: left;" "text-align: left;"> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
-          <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">
-          <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white">
-        <br/> ✔ CRUD 기능 제작
-          </div>
-    </div>
-    
+# 지코바 치킨<img src="https://github.com/user-attachments/assets/41e8c172-beaa-4d6e-a07c-2e6c78da126e" align=left width=100>
+
+> 지코바 치킨의 창업을 고민하는 고객을 위한 홍보 사이트🤝
+
+<br />
+
+<img width="2017" alt="스크린샷 2024-08-13 오후 4 11 45" src="https://github.com/user-attachments/assets/ac06c8f9-345c-41f8-b670-88687f6560de">
+
+- 배포 URL : https://keumju.github.io/Gcova_renewal/
+- 프로젝트 기획서 : [gcova.pdf](https://github.com/user-attachments/files/16595517/gcova.pdf)
+- 피그마 디자인 : https://ko.fm/4hv
+
+<br>
+
+## 💭 프로젝트 소개
+
+- 지코바 치킨의 사이트를 리뉴얼한 웹 페이지입니다.
+- 창업을 희망하는 고객을 타겟으로 사이트를 제작하였습니다.
+
+<br>
+
+## 1. 개발 환경
+
+- 개발 도구 : HTML, CSS, JavaScript, Node.js, MySQL
+- 디자인 : Figma
+<br>
