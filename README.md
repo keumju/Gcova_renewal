@@ -4,7 +4,7 @@
 
 <br />
 
-<img width="2017" alt="스크린샷 2024-08-13 오후 4 11 45" src="https://github.com/user-attachments/assets/ac06c8f9-345c-41f8-b670-88687f6560de">
+![지코바](https://github.com/user-attachments/assets/758aaedb-9447-4744-be1b-45196b479528)
 
 - 배포 URL : https://keumju.github.io/Gcova_renewal/
 - 프로젝트 기획서 : [gcova.pdf](https://github.com/user-attachments/files/16595517/gcova.pdf)
